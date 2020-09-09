@@ -21,6 +21,7 @@ html {
 body {
   font-family: 'PT Sans', sans-serif;
   font-size: 22px;
+  background-color: #797979;
 }
 
 input::-webkit-outer-spin-button,
@@ -40,9 +41,11 @@ input[type=number] {
   box-sizing: inherit;
 }
 
-html {
+.page__wrapper {
   background-image: url("../img/bg.jpg");
   background-size: cover;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .d-flex {
